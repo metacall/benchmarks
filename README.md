@@ -1,2 +1,2 @@
-# benchmarks
-MetaCall FaaS Benchmarks
+# MetaCall Benchmarks
+
