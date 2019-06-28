@@ -1,0 +1,7 @@
+{
+	"language_id": "js",
+	"path": ".",
+	"scripts": [
+		"index.js"
+	]
+}
