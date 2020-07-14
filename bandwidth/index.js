@@ -72,7 +72,7 @@ module.exports = {
 /*
 (async () => {
     try {
-        console.log(await inbound());
+        console.log(await bench_bandwidth_inbound());
     } catch (err) {
         console.log(err.message);
     }
