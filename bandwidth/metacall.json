@@ -2,6 +2,6 @@
 	"language_id": "node",
 	"path": ".",
 	"scripts": [
-		"index.js"
+		"bandwidth.js"
 	]
 }
