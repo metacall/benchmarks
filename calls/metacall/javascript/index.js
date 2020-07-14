@@ -3,6 +3,10 @@
 // Copyright (C) 2016 - 2020 Vicente Eduardo Ferrer Garcia <vic798@gmail.com>
 //
 
-module.exports = node_benchmark_untyped = x => {
+function bench_call_js_untyped(x) {
 	return x;
-};
+}
+
+function bench_call_js_typed(x :: String) :: String {
+	return x;
+}

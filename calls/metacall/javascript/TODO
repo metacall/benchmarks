@@ -1,1 +1,2 @@
 JavaScript & NodeJS cannot run in the same deployment (V8 issue must be solved first).
+Change file name '.metacall.json' to 'metacall.json'.

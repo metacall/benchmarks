@@ -3,10 +3,8 @@
 # Copyright (C) 2016 - 2020 Vicente Eduardo Ferrer Garcia <vic798@gmail.com>
 #
 
-def rb_benchmark_untyped(x)
+def bench_call_py_untyped(x):
 	return x
-end
 
-def rb_benchmark_typed(x: String)
+def bench_call_py_typed(x: str):
 	return x
-end

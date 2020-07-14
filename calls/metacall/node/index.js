@@ -3,13 +3,6 @@
 // Copyright (C) 2016 - 2020 Vicente Eduardo Ferrer Garcia <vic798@gmail.com>
 //
 
-namespace Benchmark
-{
-	public class Program
-	{
-		public static string cs_benchmark_typed(string x)
-		{
-			return x;
-		}
-	}
-}
+module.exports = bench_call_node_untyped = x => {
+	return x;
+};

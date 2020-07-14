@@ -3,10 +3,13 @@
 // Copyright (C) 2016 - 2020 Vicente Eduardo Ferrer Garcia <vic798@gmail.com>
 //
 
-function js_benchmark_untyped(x) {
-	return x;
-}
-
-function js_benchmark_typed(x :: String) :: String {
-	return x;
+namespace Benchmark
+{
+	public class Program
+	{
+		public static string bench_call_cs_typed(string x)
+		{
+			return x;
+		}
+	}
 }
